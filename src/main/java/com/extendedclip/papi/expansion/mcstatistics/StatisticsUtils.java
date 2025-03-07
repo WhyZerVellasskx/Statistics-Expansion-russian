@@ -138,7 +138,7 @@ public class StatisticsUtils {
         }
 
         if (time < 60) {
-            return time + "s";
+            return time + "с";
         }
 
         long seconds = time;
@@ -153,11 +153,11 @@ public class StatisticsUtils {
         days %= 7;
 
         final StringJoiner joiner = new StringJoiner(" ");
-        appendTime(joiner, weeks, "w");
-        appendTime(joiner, days, "d");
-        appendTime(joiner, hours, "h");
-        appendTime(joiner, minutes, "m");
-        appendTime(joiner, seconds, "s");
+        appendTime(joiner, weeks, "нд");
+        appendTime(joiner, days, "дн");
+        appendTime(joiner, hours, "ч");
+        appendTime(joiner, minutes, "м");
+        appendTime(joiner, seconds, "с");
         return joiner.toString();
     }
 
