@@ -44,7 +44,7 @@ public class StatisticsExpansion extends PlaceholderExpansion implements Cacheab
 
     @Override
     public String getAuthor() {
-        return "clip";
+        return "clip, WhyZerVellasskx";
     }
 
     @Override
